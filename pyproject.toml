@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "test-deploy"
-version = "0.0.1"
+version = "0.0.3"
 description = "Repo for testing PyPi deployment."
 authors = ["Ben Sowell <ben@aryn.ai>"]
 readme = "README.md"
