@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "test-deploy"
+version = "0.0.1"
+description = "Repo for testing PyPi deployment."
+authors = ["Ben Sowell <ben@aryn.ai>"]
+readme = "README.md"
+packages = [{include = "test_deploy"}]
+
+[tool.poetry.dependencies]
+python = ">=3.10"
+click = "^8.1.7"
+
+[tool.poetry.scripts]
+test = "test_deploy.test:cli"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.9.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
