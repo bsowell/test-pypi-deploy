@@ -1,10 +1,19 @@
 [tool.poetry]
-name = "test-deploy"
-version = "0.0.3"
+name = "bsowell-test-deploy"
+version = "0.0.4"
 description = "Repo for testing PyPi deployment."
 authors = ["Ben Sowell <ben@aryn.ai>"]
 readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: Apache Software License",
+    "Operating System :: OS Independent"
+]
+
 packages = [{include = "test_deploy"}]
+
+[tool.poetry.urls]
+"Repository" = "https://github.com/bsowell/test-pypi-deploy"
 
 [tool.poetry.dependencies]
 python = ">=3.10"
