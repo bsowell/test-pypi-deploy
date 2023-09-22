@@ -1,2 +1,2 @@
-test_deploy/test/* -linguist-detectable
+test_deploy/test/** -linguist-detectable
 
