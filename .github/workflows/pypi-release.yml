@@ -6,9 +6,9 @@ jobs:
   test-pypi-release:
     name: Upload to TestPyPI
     runs-on: ubuntu-latest
-    # environment:
-    #   name: testpypi
-    #   url: https://test.pypi.org/p/bsowell-test-deploy
+    environment:
+      name: testpypi
+      url: https://test.pypi.org/p/bsowell-test-deploy
     permissions:
       id-token: write
     steps:
